@@ -1,0 +1,19 @@
+<div class="game">
+  <div class="firstRow">
+    <span class="firstRow-one" (click)="onInput(0)">{{gameState[0]}}</span>
+    <span class="firstRow-two" (click)="onInput(1)">{{gameState[1]}}</span>
+    <span class="firstRow-three" (click)="onInput(2)">{{gameState[2]}}</span>
+  </div>
+  <div class="secondRow">
+    <span class="secondRow-one" (click)="onInput(3)">{{gameState[3]}}</span>
+    <span class="secondRow-two" (click)="onInput(4)">{{gameState[4]}}</span>
+    <span class="secondRow-three" (click)="onInput(5)">{{gameState[5]}}</span>
+  </div>
+  <div class="thirdRow">
+    <span class="thirdRow-one" (click)="onInput(6)">{{gameState[6]}}</span>
+    <span class="thirdRow-two" (click)="onInput(7)">{{gameState[7]}}</span>
+    <span class="thirdRow-three" (click)="onInput(8)">{{gameState[8]}}</span>
+  </div>
+</div>
+
+<div *ngIf="gameOver"><h1>Game Over</h1></div>
