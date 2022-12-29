@@ -16,4 +16,7 @@
   </div>
 </div>
 
-<div *ngIf="gameOver"><h1>Game Over</h1></div>
+<div class="gameOver" *ngIf="gameOver">
+  <div class="message"><h1>Game Over</h1></div>
+  <button (click)="onRestart()">Restart</button>
+</div>

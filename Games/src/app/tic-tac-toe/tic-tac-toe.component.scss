@@ -65,3 +65,18 @@ span {
 span:hover {
   cursor: crosshair;
 }
+
+button {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.message {
+  text-align: center;
+} 
+
+.gameOver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

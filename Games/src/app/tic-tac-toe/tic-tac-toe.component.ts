@@ -50,4 +50,15 @@ export class TicTacToeComponent implements OnInit {
       }
     }
   }
+
+  onRestart() {
+    this.gameState = [
+      '', '', '',
+      '', '', '',
+      '', '', ''
+    ];
+
+    this.gameOver = false;
+    this.xTurn = true;
+  }
 }
