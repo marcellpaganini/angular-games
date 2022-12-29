@@ -1,0 +1,82 @@
+.game {
+  margin: 5% 41% 5% 41%;
+}
+
+.firstRow, .secondRow, .thirdRow {
+ display: flex;
+ flex-direction: row;
+ height: 3.3em;
+}
+
+.firstRow-one, .firstRow-two, .firstRow-three,
+.secondRow-one, .secondRow-two, .secondRow-three,
+.thirdRow-one, .thirdRow-two, .thirdRow-three {
+  display: inline-block;
+  width: 3.6em;
+}
+
+.firstRow-one {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.firstRow-two {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.firstRow-three {
+  border-bottom: 1px solid black;
+}
+
+.secondRow-one {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.secondRow-two {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.secondRow-three {
+  border-bottom: 1px solid black;
+}
+
+.thirdRow-one {
+  border-right: 1px solid black;
+}
+
+.thirdRow-two {
+  border-right: 1px solid black;
+}
+
+.thirdRow-three {
+
+}
+
+span {
+  text-align: center;
+  padding-top: 0.2em;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+span:hover {
+  cursor: crosshair;
+}
+
+button {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.message {
+  text-align: center;
+} 
+
+.gameOver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
